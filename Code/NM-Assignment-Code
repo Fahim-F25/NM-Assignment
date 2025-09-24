@@ -11,3 +11,22 @@ m, n = X.shape
 
 # Reshape y to column vector
 y = y.reshape(-1,1)
+
+#2.Define logistic function
+def sigmoid(z):
+    return 1/(1 + np.exp(-z))
+
+def cost_function(theta, X,y):
+    h = sigmoid(X @ theta)
+    return - (1/m) * (y.T @ np.log(h) + (1-y).T @ np.log(1-h))
+
+
+def gradient(theta, X, y):
+    h = sigmoid(X @ theta)
+    return (1/m) * (X.T @ (h-y))
+
+
+def hessian(theta, X, y):
+    h = sigmoid(X @ theta)
+    R = np.diag((h * (1-h)).flatten())
+    return (1/m) * (X.T @ X)
