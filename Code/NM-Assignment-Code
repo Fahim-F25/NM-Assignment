@@ -54,4 +54,16 @@ def logistic_regression_newton(X , y , num_iter=10):
         theta -= np.linalg.inv(H) @ grad
         costs.append(cost_function(theta, X, y).item())
     return theta, costs
+
+
+# 5. Run both methods
+theta_gd, costs_gd = logistic_regressio_gd(X, y, alpha=0.1, num_iter=300)
+theta_newton, costs_newton = logistic_regression_newton(X, y, num_iter=10)
+
+print("Final theta (Gradient Descent):", theta_gd.ravel())
+print("Final theta (Newton's Method):", theta_newton.ravel())
+
+
+
+
     
