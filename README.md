@@ -27,3 +27,9 @@ This project demonstrates the implementation and comparison of two popular optim
   2. *Newton’s Method* – updates using both gradient and Hessian (second-order derivative).
 * Compares *convergence speed* of both methods by plotting cost vs iteration.
 
+
+### 🔹 Results
+
+* *Gradient Descent* takes many small steps to converge, depending on the learning rate.
+* *Newton’s Method* converges much faster in fewer iterations, but requires matrix inversion, which is computationally expensive for high-dimensional data.
+* A *comparison plot* shows the difference in convergence behavior.
