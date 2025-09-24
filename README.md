@@ -45,3 +45,12 @@ This project demonstrates the implementation and comparison of two popular optim
 * *Scikit-learn* – for dataset generation
 * *Matplotlib* – for visualization
 
+-----06-----
+
+### 🔹How to Run
+1.Install dependencies:pip install scikit-learn matplotib.
+2.Run time dcript:python NM.py
+3.Observe:
+   *Console output-final parameters for both methods.
+   *Graph-cost convergence comparison .
+
