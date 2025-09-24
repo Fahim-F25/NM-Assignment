@@ -1,14 +1,13 @@
 # NM-Assignment
 <br>
-# 📘 README Description
 
------01-----
+# 📘 Description
 
 ## Logistic Regression Optimization using Gradient Descent and Newton’s Method
 
 This project demonstrates the implementation and comparison of two popular optimization techniques — **Gradient Descent** and **Newton’s Method** — for minimizing the cost function of a **Logistic Regression** model.
 
------02-----
+
 ### 🔹 Key Features
 
 * Generates a *synthetic binary classification dataset* using scikit-learn.
@@ -21,14 +20,14 @@ This project demonstrates the implementation and comparison of two popular optim
 * Optimizes logistic regression parameters (θ) using:
 
 
-  -----03-----
+  
 
   1. *Gradient Descent* – iterative updates with a learning rate.
   2. *Newton’s Method* – updates using both gradient and Hessian (second-order derivative).
 * Compares *convergence speed* of both methods by plotting cost vs iteration.
 
 
------04-----
+
 ### 🔹 Results
 
 * *Gradient Descent* takes many small steps to converge, depending on the learning rate.
@@ -36,7 +35,7 @@ This project demonstrates the implementation and comparison of two popular optim
 * A *comparison plot* shows the difference in convergence behavior.
   
 
------05-----
+
 
 ### 🔹 Technologies Used
 
@@ -45,7 +44,7 @@ This project demonstrates the implementation and comparison of two popular optim
 * *Scikit-learn* – for dataset generation
 * *Matplotlib* – for visualization
 
------06-----
+
 
 ### 🔹How to Run
 
