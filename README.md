@@ -19,3 +19,11 @@ This project demonstrates the implementation and comparison of two popular optim
   * *Gradient computation*
   * *Hessian computation* (for Newton’s method)
 * Optimizes logistic regression parameters (θ) using:
+
+
+  -----03-----
+
+  1. *Gradient Descent* – iterative updates with a learning rate.
+  2. *Newton’s Method* – updates using both gradient and Hessian (second-order derivative).
+* Compares *convergence speed* of both methods by plotting cost vs iteration.
+
