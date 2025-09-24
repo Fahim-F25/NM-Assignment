@@ -63,6 +63,15 @@ theta_newton, costs_newton = logistic_regression_newton(X, y, num_iter=10)
 print("Final theta (Gradient Descent):", theta_gd.ravel())
 print("Final theta (Newton's Method):", theta_newton.ravel())
 
+#6.Plot convergence
+plt.plot(costs_gd,label="Gradient Descent")
+plt.plot(costs_newton,label="Newton's Method")
+plt.xlabel("Iteration")
+plt.ylabel("Cost")
+plt.title("Convergence Comparison")
+plt.legend()
+plt.show()
+
 
 
 
