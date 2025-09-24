@@ -34,3 +34,14 @@ This project demonstrates the implementation and comparison of two popular optim
 * *Gradient Descent* takes many small steps to converge, depending on the learning rate.
 * *Newton’s Method* converges much faster in fewer iterations, but requires matrix inversion, which is computationally expensive for high-dimensional data.
 * A *comparison plot* shows the difference in convergence behavior.
+  
+
+-----05-----
+
+### 🔹 Technologies Used
+
+* *Python*
+* *NumPy* – for mathematical operations
+* *Scikit-learn* – for dataset generation
+* *Matplotlib* – for visualization
+
