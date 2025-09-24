@@ -1,17 +1,13 @@
 import numpy as np
-from sklearn.datasets import make_classification
+from skleatn.datasets import make_classification
 import matplotlib.pyplot as plt
 
-# ----------------------------
 # 1. Generate synthetic dataset
-# ----------------------------
-X, y = make_classification(
-    n_samples=200, n_features=2, n_classes=2, n_redundant=0, random_state=42
-)
+x, y = make_classidication( n_samples = 200, n_features = 2, n_classes = 2, n_reduntdant = 0,,random_state = 42)
 
 # Add intercept term (bias)
-X = np.hstack([np.ones((X.shape[0], 1)), X])  # shape: (m, n+1)
+x = np.hstack([np.ones((X.shape[0], 1)), X]) # shape (m,n+1)
 m, n = X.shape
 
 # Reshape y to column vector
-y = y.reshape(-1, 1)
+y = y.reshape(-1,1)
