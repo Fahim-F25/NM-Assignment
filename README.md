@@ -28,6 +28,7 @@ This project demonstrates the implementation and comparison of two popular optim
 * Compares *convergence speed* of both methods by plotting cost vs iteration.
 
 
+-----04-----
 ### 🔹 Results
 
 * *Gradient Descent* takes many small steps to converge, depending on the learning rate.
